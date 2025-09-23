@@ -2,16 +2,20 @@ name: iptv_flutter_full
 description: IPTV Flutter player with GitHub Actions build
 publish_to: 'none'
 version: 0.0.1
+
 environment:
   sdk: ">=2.18.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
-  better_player: ^0.0.83
+  better_player_plus: ^0.0.9
   http: ^1.2.0
-  shared_preferences: ^2.0.15
+  shared_preferences: ^2.3.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 flutter:
   uses-material-design: true
